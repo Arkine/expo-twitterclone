@@ -1,0 +1,36 @@
+{
+  "name": "twitterclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node server/src/index.js",
+    "prettier": "prettier --single-quote --print-width 80 --trailing-comma all --write 'src/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.2.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.1.1",
+    "express": "^4.16.2",
+    "faker": "^4.1.0",
+    "graphql": "^0.11.7",
+    "graphql-date": "^1.0.3",
+    "graphql-tools": "^2.7.0",
+    "jsonwebtoken": "^8.1.0",
+    "node-env": "^0.1.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "eslint-config-equimper": "^2.2.1",
+    "eslint-config-prettier": "^2.7.0",
+    "mongoose": "^4.12.6",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.7.4"
+  }
+}
